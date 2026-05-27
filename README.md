@@ -1,2 +1,2 @@
-# [Dronex Delivery Solutions Landing page](https://dronex-delivery-solutions.github.io/Dronex.github.io/)
+# [Phoenix Academy Website](https://phoenix-academy.github.io/)
 
