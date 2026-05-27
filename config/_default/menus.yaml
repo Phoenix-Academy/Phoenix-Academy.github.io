@@ -1,0 +1,33 @@
+# Navigation Links
+#   To link a page section, specify the URL as a hash `/#` followed by the `id` of the section.
+#   The `weight` parameter defines the order that the links will appear in.
+
+main:
+  - name: خانه
+    identifier: b9324785
+    url: /#top
+    weight: 10
+  - name: درباره
+    identifier: 73d7cb83
+    url: /#about
+    weight: 20
+  - name: محورهای اصلی
+    identifier: 1c4c664f
+    url: /#features
+    weight: 30
+  - name: اخبار
+    identifier: 2f7a15f4
+    url: /news/
+    weight: 40
+  - name: نقشه راه
+    identifier: e6684709
+    url: /#roadmap
+    weight: 50
+  - name: منابع
+    identifier: 755a61ed
+    url: ""
+    weight: 60
+    hasChildren: true
+  - parent: منابع
+    name: مقالات
+    url: /blog/

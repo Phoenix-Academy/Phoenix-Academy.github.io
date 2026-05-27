@@ -1,0 +1,12 @@
+# Languages
+#   Create a section for each of your site's languages.
+#   Documentation: https://docs.hugoblox.com/reference/language/
+
+# Default language
+fa:
+  languageCode: fa-IR
+  languageDirection: rtl
+  title: آکادمی ققنوس
+  weight: 1
+  params:
+    description: آزمایشگاه پژوهش و توسعه برای رباتیک، پهپاد، ROS 2 و Agentic AI.
