@@ -5,12 +5,12 @@ share: false
 ---
 
 These Terms of Service ("Terms") govern your access to and use of the
-Dronex website and related services. By using the site you agree to these
+Phoenix Academy website and related services. By using the site you agree to these
 Terms. If you do not agree, please do not use the site.
 
 1. Who we are
 
-The site, "Dronex" ("we", "us", "our"), is a technology research site focused
+The site, "Phoenix Academy" ("we", "us", "our"), is a technology research site focused
 on UAVs, middleware, and developer-focused tutorials and notes. These Terms
 apply to visitors, readers, contributors, and any users of the site's
 services.
@@ -25,7 +25,7 @@ services.
 3. User contributions and licensing
 
 - If you submit content (comments, articles, datasets, code), you represent
-	that you have the right to submit it and grant Dronex a non-exclusive,
+	that you have the right to submit it and grant Phoenix Academy a non-exclusive,
 	worldwide, royalty-free license to reproduce, distribute, display, and
 	publish the content on the site and related channels.
 - When contributing code or data, indicate the license you intend (MIT,
@@ -54,7 +54,7 @@ fitness for a particular purpose.
 
 7. Limitation of liability
 
-To the maximum extent permitted by law, Dronex (and its officers, contributors,
+To the maximum extent permitted by law, Phoenix Academy (and its officers, contributors,
 or service providers) will not be liable for indirect, incidental, special, or
 consequential damages arising from your use of the site. Our aggregate
 liability for claims related to the site shall be limited to the amount you

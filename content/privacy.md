@@ -4,9 +4,9 @@ date: 2023-12-01
 share: false
 ---
 
-This Privacy Policy describes how Dronex ("we", "us", "our") collects,
+This Privacy Policy describes how Phoenix Academy ("we", "us", "our") collects,
 uses, discloses, and protects information when you visit or interact with the
-website. Dronex is a technology research site focused on UAVs, middleware,
+website. Phoenix Academy is a technology research site focused on UAVs, middleware,
 research notes, and tutorials.
 
 We aim to be transparent about data practices that matter for researchers,
