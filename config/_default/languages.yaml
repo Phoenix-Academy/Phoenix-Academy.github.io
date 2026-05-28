@@ -6,7 +6,7 @@
 fa:
   languageCode: fa-IR
   languageDirection: rtl
+  rtl: true
   title: آکادمی ققنوس
   weight: 1
-  params:
-    description: آزمایشگاه پژوهش و توسعه برای رباتیک، پهپاد، ROS 2 و Agentic AI.
+ 

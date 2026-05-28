@@ -1,95 +1,87 @@
 ---
-title: Terms of Service
+title: شرایط استفاده
 date: 2023-12-01
 share: false
 ---
 
-These Terms of Service ("Terms") govern your access to and use of the
-Phoenix Academy website and related services. By using the site you agree to these
-Terms. If you do not agree, please do not use the site.
+این شرایط استفاده («شرایط») دسترسی شما و استفاده شما از وب‌سایت آکادمی ققنوس و
+خدمات مرتبط را تنظیم می‌کند. با استفاده از سایت، شما این شرایط را می‌پذیرید. اگر با
+آنها موافق نیستید، لطفاً از سایت استفاده نکنید.
 
-1. Who we are
+1. ما که هستیم
 
-The site, "Phoenix Academy" ("we", "us", "our"), is a technology research site focused
-on UAVs, middleware, and developer-focused tutorials and notes. These Terms
-apply to visitors, readers, contributors, and any users of the site's
-services.
+سایت «آکادمی ققنوس» («ما»، «ما را»، «مال ما») یک سایت پژوهشی-فناورانه با تمرکز بر
+پهپادها، میان‌افزارها و یادداشت‌ها و آموزش‌های مناسب توسعه‌دهندگان است. این شرایط
+برای بازدیدکنندگان، خوانندگان، مشارکت‌کنندگان و همه کاربران خدمات سایت اعمال می‌شود.
 
-2. Use of the site
+2. استفاده از سایت
 
-- You may view, read, and download content for personal, non-commercial use
-	unless a different license is explicitly stated.
-- You agree not to misuse the site or its services (e.g., attempt unauthorized
-	access, interfere with operation, or transmit malicious content).
+- شما می‌توانید محتوا را برای استفاده شخصی و غیرتجاری مشاهده، مطالعه و دانلود کنید
+	، مگر آن‌که مجوز دیگری به‌صراحت ذکر شده باشد.
+- شما موافقت می‌کنید که از سایت یا خدمات آن سوءاستفاده نکنید (برای مثال، تلاش برای
+	دسترسی غیرمجاز، ایجاد اختلال در عملکرد، یا ارسال محتوای مخرب).
 
-3. User contributions and licensing
+3. مشارکت کاربران و مجوزدهی
 
-- If you submit content (comments, articles, datasets, code), you represent
-	that you have the right to submit it and grant Phoenix Academy a non-exclusive,
-	worldwide, royalty-free license to reproduce, distribute, display, and
-	publish the content on the site and related channels.
-- When contributing code or data, indicate the license you intend (MIT,
-	Apache-2.0, CC-BY, etc.). If you do not specify, contact us to clarify how
-	you want your contribution handled.
+- اگر محتوا ارسال می‌کنید (نظر، مقاله، مجموعه‌داده، کد)، اعلام می‌کنید که حق ارسال
+	آن را دارید و به آکادمی ققنوس یک مجوز غیرانحصاری، جهانی و بدون حق امتیاز برای
+	تکثیر، توزیع، نمایش و انتشار محتوا در سایت و کانال‌های مرتبط اعطا می‌کنید.
+- هنگام مشارکت کد یا داده، مجوز موردنظر خود را مشخص کنید (MIT، Apache-2.0، CC-BY و
+	غیره). اگر مشخص نکنید، برای روشن شدن نحوه رسیدگی به مشارکت شما با ما تماس بگیرید.
 
-4. Research data and reproducibility
+4. داده‌های پژوهشی و بازتولیدپذیری
 
-We encourage reproducible research. If you publish datasets or code as part
-of a post, we may retain copies to support reproducibility. If you require a
-specific retention period or license, state this when submitting content.
+ما پژوهش بازتولیدپذیر را تشویق می‌کنیم. اگر مجموعه‌داده یا کدی را به‌عنوان بخشی از یک
+پست منتشر کنید، ممکن است برای پشتیبانی از بازتولیدپذیری نسخه‌هایی را نگه داریم. اگر
+به دوره نگهداری یا مجوز مشخصی نیاز دارید، هنگام ارسال محتوا آن را بیان کنید.
 
-5. Third-party links and services
+5. پیوندها و خدمات شخص ثالث
 
-The site may include links to external sites, third-party tools, or embedded
-services (CDNs, analytics providers, social platforms). We are not responsible
-for third-party practices; review their privacy policies and terms before
-using them.
+سایت ممکن است شامل پیوند به وب‌سایت‌های خارجی، ابزارهای شخص ثالث یا خدمات درون‌جاسازی
+شده (CDNها، ارائه‌دهندگان تحلیل، پلتفرم‌های اجتماعی) باشد. ما مسئول شیوه‌های اشخاص
+ثالث نیستیم؛ پیش از استفاده، سیاست‌های حریم خصوصی و شرایط آنها را بررسی کنید.
 
-6. Disclaimer of warranties
+6. سلب مسئولیت از ضمانت‌ها
 
-The site and all content are provided "as is" and "as available" without
-warranties of any kind. To the maximum extent permitted by law, we disclaim
-all warranties, express or implied, including accuracy, merchantability, and
-fitness for a particular purpose.
+سایت و همه محتواها «همان‌گونه که هستند» و «بر اساس دسترسی موجود» ارائه می‌شوند و هیچ
+گونه ضمانتی ندارند. تا حدی که قانون اجازه می‌دهد، همه ضمانت‌های صریح یا ضمنی، از جمله
+دقت، قابلیت تجاری‌بودن و تناسب برای یک هدف خاص، سلب می‌شود.
 
-7. Limitation of liability
+7. محدودیت مسئولیت
 
-To the maximum extent permitted by law, Phoenix Academy (and its officers, contributors,
-or service providers) will not be liable for indirect, incidental, special, or
-consequential damages arising from your use of the site. Our aggregate
-liability for claims related to the site shall be limited to the amount you
-paid (if any) in the previous 12 months, or $100, whichever is greater.
+تا حدی که قانون اجازه می‌دهد، آکادمی ققنوس (و مدیران، مشارکت‌کنندگان یا ارائه‌دهندگان
+خدمات آن) در برابر خسارات غیرمستقیم، تبعی، ویژه یا consequential ناشی از استفاده شما
+از سایت مسئول نخواهد بود. مجموع مسئولیت ما درباره ادعاهای مرتبط با سایت به مبلغی که
+در 12 ماه گذشته پرداخت کرده‌اید (اگر پرداختی داشته‌اید) یا 100 دلار، هر کدام که
+بیشتر باشد، محدود می‌شود.
 
-8. Indemnification
+8. جبران خسارت
 
-You agree to indemnify and hold us harmless against claims arising from your
-use of the site or any content you submit that violates these Terms.
+شما موافقت می‌کنید که ما را در برابر ادعاهایی که از استفاده شما از سایت یا هر محتوایی
+که ارسال می‌کنید و این شرایط را نقض می‌کند ناشی می‌شود، جبران و مصون نگه دارید.
 
-9. DMCA and takedown policy
+9. DMCA و سیاست حذف محتوا
 
-If you believe content on the site infringes your copyright, contact us with a
-DMCA takedown notice including sufficient identifying information. We will
-respond according to applicable law.
+اگر باور دارید محتوای سایت حق نشر شما را نقض می‌کند، با ما و همراه با اخطار حذف DMCA
+و اطلاعات شناسایی کافی تماس بگیرید. ما مطابق قانون قابل اجرا پاسخ خواهیم داد.
 
-10. Termination
+10. خاتمه دسترسی
 
-We may suspend or terminate access to the site for users who violate these
-Terms or for operational reasons. Termination does not affect rights that
-accrued before termination.
+ممکن است دسترسی کاربران متخلف از این شرایط یا در صورت ضرورت‌های عملیاتی را تعلیق یا
+خاتمه دهیم. خاتمه دسترسی، حقوقی را که پیش از آن ایجاد شده‌اند از بین نمی‌برد.
 
-11. Governing law
+11. قانون حاکم
 
-These Terms are governed by the laws of the jurisdiction where the site owner
-is located. Where required, include your preferred governing law or jurisdiction.
+این شرایط تابع قوانین حوزه قضایی‌ای هستند که مالک سایت در آن مستقر است. هرجا لازم
+باشد، قانون حاکم یا حوزه قضایی ترجیحی خود را درج کنید.
 
-12. Changes
+12. تغییرات
 
-We may update these Terms; if we make material changes we will post a notice
-on the site. Continued use after a change indicates acceptance of the new
-Terms.
+ممکن است این شرایط را به‌روزرسانی کنیم؛ اگر تغییرات مهمی ایجاد شود، اطلاعیه‌ای در
+سایت منتشر می‌کنیم. ادامه استفاده پس از تغییر، به‌منزله پذیرش شرایط جدید است.
 
-13. Contact
+13. تماس
 
-For questions, reports, or legal notices, contact:
+برای پرسش‌ها، گزارش‌ها یا اخطارهای حقوقی، با ما تماس بگیرید:
 
 ---

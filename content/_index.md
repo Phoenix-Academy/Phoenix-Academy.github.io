@@ -9,24 +9,45 @@ sections:
   - block: "hero"
     content:
       title: "آکادمی ققنوس"
-      text: "آزمایشگاه پژوهش و توسعه برای رباتیک، UAV، ROS 2 و Agentic AI"
+      text: "تجلی نوزایی و بالندگی علمی بر مدار اندیشه و اراده راسخ جوانان ایران‌زمین" 
       primary_action:
-        text: "مقالات و پژوهش‌ها"
+        text: "شروع"
         url: "/blog/"
         icon: "rocket-launch"
       secondary_action:
         text: "نقشه راه"
         url: "#roadmap"
+        icon: "arrow-path-rounded-square"
     design:
       background:
-        color: "navy"
+        color: "#9dc3ea"
     ce: "section-2e010377"
     As: "section-954c71ed"
-  - block: "search-hero"
+
+  - block: "markdown"
     content:
-      search_placeholder: "دنبال مقاله، پروژه یا راهنما بگردید..."
-    ce: "section-5-search-hero"
-    As: "section-69db05f7"
+      text: |
+        <div style="max-width: 1040px; margin: 0 auto; padding: 1rem 1.5rem 0.5rem;">
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.5rem; align-items: start; justify-items: center;">
+            <div style="width: 100%; max-width: 280px; text-align: center;">
+              <img src="/uploads/robot-arm.png" alt="رباتیک " style="width: 100%; height: 190px; object-fit: cover; border-radius: 18px; box-shadow: 0 16px 40px rgba(36, 52, 87, 0.12);">
+              <h3 style="margin: 0.9rem 0 0; font-size: 1.05rem; font-weight: 700; color: #0f172a;">رباتیک </h3>
+            </div>
+            <div style="width: 100%; max-width: 280px; text-align: center;">
+              <img src="/uploads/uav.png" alt=" نپهپاد های خودرا" style="width: 100%; height: 190px; object-fit: cover; border-radius: 18px; box-shadow: 0 16px 40px rgba(15, 23, 42, 0.12);">
+              <h3 style="margin: 0.9rem 0 0; font-size: 1.05rem; font-weight: 700; color: #0f172a;">پهپاد های خودران </h3>
+            </div>
+            <div style="width: 100%; max-width: 280px; text-align: center;">
+              <img src="/uploads/logo.png" alt="هوش مصنوعی" style="width: 100%; height: 190px; object-fit: contain; background: #ffffff; border-radius: 18px; box-shadow: 0 16px 40px rgba(15, 23, 42, 0.12); padding: 1rem;">
+              <h3 style="margin: 0.9rem 0 0; font-size: 1.05rem; font-weight: 700; color: #0f172a;">هوش مصنوعی</h3>
+            </div>
+          </div>
+        </div>
+    design:
+      background:
+        color: "#f8fafc"
+    ce: "section-showcase"
+   
   - block: "markdown"
     content:
       title: "خوش آمدید"
@@ -39,16 +60,14 @@ sections:
   - block: "cta-image-paragraph"
     content:
       items:
-        - title: "درباره آکادمی ققنوس"
+        - title: "درباره ما"
           text: |
-            آکادمی ققنوس یک وب‌سایت تحقیق و توسعه برای آزمایشگاه است؛ جایی برای ایده، آزمایش، مستندسازی و انتشار دانش.
-
-            تمرکز ما روی پروژه‌های قابل پیاده‌سازی در رباتیک، پهپاد، شبیه‌سازی، و سامانه‌های مبتنی بر عامل است؛ با هدف تبدیل پژوهش به محصول و تجربه‌ی فنی قابل استفاده.
+           آکادمی ققنوس؛ پیشران آموزش فناوری‌های پیشرفته روز به نسل جوان. ما با تمرکز بر هوش مصنوعی، رباتیک و پهپادهای خودران، مأموریت خود را آغاز کرده‌ایم تا به پشتوانه نوآوری جوانان ایرانی، از مرزهای اقتصاد سنتی فراتر رفته و دریچه‌هایی نو به سوی اقتصاد خلاق و آینده‌ساز بگشاییم.
           feature_icon: "check"
           features:
             - "توسعه آزمایشگاه‌محور و مستندسازی شفاف"
             - "تلفیق پژوهش، شبیه‌سازی و نمونه‌سازی سریع"
-            - "تمرکز بر رباتیک، UAV، ROS 2 و Agentic AI"
+            - "بسترسازی تخصصی در جهت شکل‌گیری زیست‌بوم کارآفرینی برای نسل جوان خلاق"
           button:
             text: "مطالعه مقالات"
             url: "/blog/"
@@ -73,7 +92,7 @@ sections:
         </div>
     design:
       background:
-        color: "#ffffff"
+        color: "#d5862cc8"
     ce: "section-roadmap"
     id: "roadmap"
   - block: "features"
@@ -101,25 +120,7 @@ sections:
           description: "ساختاردهی محتوا، برچسب‌ها و مسیر یادگیری برای استفاده‌ی دوباره."
     ce: "section-features"
     id: "features"
-    As: "section-835d75b8"
-  - block: "cta-image-paragraph"
-    content:
-      items:
-        - title: "از آزمایش تا انتشار"
-          text: "هر پروژه در آکادمی ققنوس باید از ایده و شبیه‌سازی شروع شود و با مستندات، نتایج و خروجی قابل ارائه تمام شود."
-          feature_icon: "check"
-          features:
-            - "تعریف مسئله و فرضیه روشن"
-            - "پیاده‌سازی نمونه‌ی اولیه و تست کنترل‌شده"
-            - "ثبت نتایج، درس‌آموخته‌ها و نسخه‌ی نهایی"
-          button:
-            text: "مشاهده آرشیو"
-            url: "/blog/"
-    design:
-      css_class: "bg-gray-100 dark:bg-gray-900"
-    ce: "section-solutions"
-    id: "solutions"
-    As: "section-7da674b0"
+    As: "section-835d75b8"    
   - block: "markdown"
     content:
       title: ""

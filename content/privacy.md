@@ -1,107 +1,106 @@
 ---
-title: Privacy
-date: 2023-12-01
+title: حریم خصوصی
+date: 2026-05-26
 share: false
 ---
 
-This Privacy Policy describes how Phoenix Academy ("we", "us", "our") collects,
-uses, discloses, and protects information when you visit or interact with the
-website. Phoenix Academy is a technology research site focused on UAVs, middleware,
-research notes, and tutorials.
+این سیاست حریم خصوصی توضیح می‌دهد که آکادمی ققنوس («ما»، «ما را»، «مال ما») چگونه
+اطلاعات را هنگام بازدید یا تعامل شما با وب‌سایت جمع‌آوری، استفاده، افشا و محافظت
+می‌کند. آکادمی ققنوس یک وب‌سایت پژوهشی-فناورانه با تمرکز بر پهپادها، میان‌افزارها،
+یادداشت‌های پژوهشی و آموزش‌ها است.
 
-We aim to be transparent about data practices that matter for researchers,
-contributors, and readers. This policy summarizes common categories of data we
-process and how you can exercise your rights. It does not constitute legal
-advice.
+ما تلاش می‌کنیم درباره شیوه‌های پردازش داده‌هایی که برای پژوهشگران، مشارکت‌کنندگان و
+خوانندگان اهمیت دارد شفاف باشیم. این سیاست، دسته‌های رایج داده‌ای را که پردازش
+می‌کنیم و روش اعمال حقوق شما را خلاصه می‌کند. این متن مشاوره حقوقی محسوب نمی‌شود.
 
-1. Information we collect
+1. اطلاعاتی که جمع‌آوری می‌کنیم
 
-- Information you provide directly: when you contact us (email or contact
-	form), subscribe to a newsletter, submit comments, or contribute content, we
-	may collect your name, email address, affiliation, and any content you
-	provide (articles, code snippets, images).
-- Automatically collected information: when you visit the site we may collect
-	technical information such as your IP address, browser user agent, device
-	identifiers, referrer, and pages visited. We also collect usage statistics
-	(page views, timestamps) to improve content and site reliability.
-- Research and contributor data: contributions, datasets, logs, or telemetry
-	you upload are treated as content you submit. We may publish or share that
-	content according to any license or consent you provide at submission time.
+- اطلاعاتی که مستقیماً ارائه می‌کنید: زمانی که با ما تماس می‌گیرید (از طریق ایمیل یا
+	فرم تماس)، در خبرنامه ثبت‌نام می‌کنید، نظر می‌فرستید یا محتوا ارسال می‌کنید، ممکن
+	است نام، نشانی ایمیل، وابستگی سازمانی و هر محتوایی را که ارائه می‌کنید (مقاله، قطعه
+	کد، تصویر) جمع‌آوری کنیم.
+- اطلاعاتی که به‌صورت خودکار جمع‌آوری می‌شود: هنگام بازدید از سایت، ممکن است اطلاعات
+	فنی مانند نشانی IP، شناسه عامل کاربر مرورگر، شناسه‌های دستگاه، ارجاع‌دهنده و صفحات
+	بازدیدشده را جمع‌آوری کنیم. همچنین آمار استفاده (بازدید صفحه، زمان‌ثبت‌ها) را برای
+	بهبود محتوا و پایداری سایت گردآوری می‌کنیم.
+- داده‌های پژوهشی و مشارکت‌کنندگان: مشارکت‌ها، مجموعه‌داده‌ها، لاگ‌ها یا تله‌متری‌ای
+	که بارگذاری می‌کنید به‌عنوان محتوای ارسالی شما تلقی می‌شوند. ممکن است آن محتوا را بر
+	اساس مجوز یا رضایتی که هنگام ارسال مشخص کرده‌اید منتشر یا به اشتراک بگذاریم.
 
-2. Cookies and tracking
+2. کوکی‌ها و ردیابی
 
-- We may use cookies, local storage, and similar tracking technologies for site
-	functionality, analytics, and performance. Cookies help us provide basic
-	features (session state), remember preferences, and measure usage.
-- We may use third-party analytics providers (e.g., Google Analytics or other
-	privacy-respecting analytics). These providers collect and process usage
-	information according to their privacy policies. You can opt out of
-	third-party tracking where the provider offers an opt-out mechanism.
+- ممکن است از کوکی‌ها، فضای ذخیره‌سازی محلی و فناوری‌های ردیابی مشابه برای عملکرد
+	سایت، تحلیل و کارایی استفاده کنیم. کوکی‌ها به ما کمک می‌کنند قابلیت‌های پایه
+	(وضعیت نشست)، ترجیحات و میزان استفاده را مدیریت کنیم.
+- ممکن است از ارائه‌دهندگان تحلیل شخص ثالث (برای مثال Google Analytics یا ابزارهای
+	تحلیل سازگار با حریم خصوصی) استفاده کنیم. این ارائه‌دهندگان اطلاعات استفاده را طبق
+	سیاست‌های حریم خصوصی خود پردازش می‌کنند. هرجا چنین امکانی وجود داشته باشد، می‌توانید
+	از ردیابی شخص ثالث انصراف دهید.
 
-3. How we use information
+3. نحوه استفاده از اطلاعات
 
-- To operate, maintain, and provide the website and features (deliver content,
-	respond to inquiries).
-- To analyze and improve the site, research content, and user experience.
-- To publish or share contributed research, tutorials or code when you submit
-	them (subject to any contributor license or consent you specify).
-- To send newsletters, updates, or administrative messages where you have
-	consented to receive them. You may unsubscribe at any time.
+- برای اداره، نگهداری و ارائه وب‌سایت و قابلیت‌های آن (ارائه محتوا، پاسخ به
+	درخواست‌ها).
+- برای تحلیل و بهبود سایت، محتوای پژوهشی و تجربه کاربری.
+- برای انتشار یا اشتراک‌گذاری پژوهش، آموزش یا کدی که ارسال می‌کنید، مشروط به مجوز یا
+	رضایتی که مشخص کرده‌اید.
+- برای ارسال خبرنامه، به‌روزرسانی‌ها یا پیام‌های اداری در صورتی که برای دریافت آنها
+	رضایت داده باشید. شما می‌توانید هر زمان لغو اشتراک کنید.
 
-4. Sharing and third parties
+4. اشتراک‌گذاری و اشخاص ثالث
 
-- Service providers: we may share information with hosting providers, CDNs,
-	analytics providers, email services, and other vendors who perform services
-	on our behalf.
-- Research collaborators and publications: if you submit research or data and
-	specify that it is public, we may publish or share it with collaborators or
-	include it in public posts.
-- Legal requirements: we may disclose information to comply with laws, court
-	orders, or valid governmental requests.
+- ارائه‌دهندگان خدمات: ممکن است اطلاعات را با میزبان‌ها، CDNها، ارائه‌دهندگان تحلیل،
+	خدمات ایمیل و سایر فروشندگانی که به‌نمایندگی از ما خدمات ارائه می‌کنند به اشتراک
+	بگذاریم.
+- همکاران پژوهشی و انتشارات: اگر پژوهش یا داده‌ای ارسال کنید و مشخص کنید که عمومی
+	است، ممکن است آن را با همکاران منتشر یا به اشتراک بگذاریم یا در پست‌های عمومی درج
+	کنیم.
+- الزامات قانونی: ممکن است برای رعایت قوانین، احکام دادگاه یا درخواست‌های معتبر
+	دولتی اطلاعات را افشا کنیم.
 
-5. Data retention
+5. نگهداری داده‌ها
 
-We retain personal information only as long as necessary to provide services
-and for legitimate business purposes (e.g., responding to inquiries, meeting
-legal obligations, or preserving research reproducibility). For contributor
-content that is published, records will generally remain unless you request
-removal and we agree to it.
+ما اطلاعات شخصی را فقط تا زمانی نگه می‌داریم که برای ارائه خدمات و اهداف مشروع
+تجاری لازم باشد (برای مثال پاسخ‌گویی به درخواست‌ها، انجام تعهدات قانونی یا حفظ
+قابلیت بازتولید پژوهش). برای محتوای مشارکت‌کننده‌ای که منتشر شده است، سوابق معمولاً
+باقی می‌مانند مگر این‌که درخواست حذف بدهید و ما با آن موافقت کنیم.
 
-6. Your rights (GDPR-style summary)
+6. حقوق شما (خلاصه‌ای مطابق GDPR)
 
-- Access: you can request a copy of personal data we hold about you.
-- Correction: you can ask us to correct inaccurate or incomplete information.
-- Deletion: you may request deletion of your personal data, subject to legal
-	obligations and our need to preserve research integrity or reproduce results.
-- Objection and restriction: you may object to or request restriction of
-	processing in certain circumstances.
-- To exercise these rights, contact us at the address below.
+- دسترسی: می‌توانید نسخه‌ای از داده‌های شخصی‌ای را که درباره شما نگه می‌داریم درخواست
+	کنید.
+- اصلاح: می‌توانید از ما بخواهید اطلاعات نادرست یا ناقص را اصلاح کنیم.
+- حذف: می‌توانید درخواست حذف داده‌های شخصی خود را ثبت کنید، مشروط به الزامات قانونی و
+	نیاز ما به حفظ یکپارچگی پژوهش یا بازتولید نتایج.
+- اعتراض و محدودسازی: در برخی شرایط می‌توانید با پردازش مخالفت کنید یا محدودسازی آن
+	را درخواست دهید.
+- برای اعمال این حقوق، از طریق نشانی زیر با ما تماس بگیرید.
 
-7. Security
+7. امنیت
 
-We use reasonable administrative, technical, and physical safeguards to protect
-personal information. However, no system is completely secure; if you believe
-your interaction with us exposes sensitive information, contact us immediately
-so we can investigate.
+ما از تدابیر اداری، فنی و فیزیکی معقول برای حفاظت از اطلاعات شخصی استفاده می‌کنیم. با
+این حال، هیچ سامانه‌ای کاملاً امن نیست؛ اگر فکر می‌کنید تعامل شما با ما اطلاعات حساسی
+را افشا کرده است، فوراً با ما تماس بگیرید تا بررسی کنیم.
 
-8. Children
+8. کودکان
 
-Our site is not directed to children under 16. We do not knowingly collect
-personal information from children.
+سایت ما برای کودکان زیر 16 سال طراحی نشده است. ما آگاهانه اطلاعات شخصی کودکان را جمع
+آوری نمی‌کنیم.
 
-9. International transfers
+9. انتقال‌های بین‌المللی
 
-The site may transfer personal data to jurisdictions outside your country for
-processing (e.g., cloud providers). Where required, we will take steps to
-protect your data in accordance with applicable law.
+ممکن است سایت برای پردازش، داده‌های شخصی را به حوزه‌های قضایی خارج از کشور شما منتقل
+کند (برای مثال ارائه‌دهندگان ابری). در صورت نیاز، برای حفاظت از داده‌های شما مطابق
+قانون قابل اجرا اقدام خواهیم کرد.
 
-10. Changes to this policy
+10. تغییرات این سیاست
 
-We may update this Privacy Policy from time to time. We will post the revised
-policy and update the effective date.
+ممکن است هر از گاهی این سیاست حریم خصوصی را به‌روزرسانی کنیم. نسخه اصلاح‌شده را
+منتشر می‌کنیم و تاریخ اجرا را به‌روزرسانی خواهیم کرد.
 
-11. Contact
+11. تماس
 
-For privacy inquiries, data requests, or takedown requests, contact:
+برای پرسش‌های مربوط به حریم خصوصی، درخواست‌های داده یا درخواست‌های حذف محتوا، با
+ما تماس بگیرید:
 
 ---

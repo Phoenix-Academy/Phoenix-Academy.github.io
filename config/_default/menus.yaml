@@ -19,14 +19,10 @@ main:
     identifier: 2f7a15f4
     url: /news/
     weight: 40
-  - name: نقشه راه
-    identifier: e6684709
-    url: /#roadmap
-    weight: 50
   - name: منابع
     identifier: 755a61ed
     url: ""
-    weight: 60
+    weight: 50
     hasChildren: true
   - parent: منابع
     name: مقالات
