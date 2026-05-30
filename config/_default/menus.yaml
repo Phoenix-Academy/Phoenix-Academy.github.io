@@ -6,11 +6,11 @@ main:
   - name: خانه
     identifier: b9324785
     url: /#top
-    weight: 10
+    weight: 50
   - name: درباره
     identifier: 73d7cb83
     url: /#about
-    weight: 20
+    weight: 40
   - name: محورهای اصلی
     identifier: 1c4c664f
     url: /#features
@@ -18,12 +18,9 @@ main:
   - name: اخبار
     identifier: 2f7a15f4
     url: /news/
-    weight: 40
-  - name: منابع
-    identifier: 755a61ed
-    url: ""
-    weight: 50
-    hasChildren: true
+    weight: 20
   - parent: منابع
     name: مقالات
+    identifier: 2f7a16k9
     url: /blog/
+    weight: 10

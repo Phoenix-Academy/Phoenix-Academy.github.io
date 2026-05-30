@@ -1,0 +1,56 @@
+<style>
+  .phoenix-hero-right .home-section-bg {
+    background-size: contain !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+  }
+
+  .phoenix-hero-right .hero-block-container > div {
+    min-height: clamp(34rem, 54vw, 44rem);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 !important;
+  }
+
+  .phoenix-hero-right .hero-block-container > div > div {
+    max-width: 34rem !important;
+    margin-left: auto !important;
+    margin-right: clamp(1.5rem, 7vw, 8rem) !important;
+    padding-block: 4rem !important;
+  }
+
+  .phoenix-hero-right .hero-block-container .text-center {
+    text-align: right !important;
+  }
+
+  .phoenix-hero-right h1 {
+    color: #f8fafc !important;
+    text-shadow: 0 3px 18px rgb(0 0 0 / 0.5);
+  }
+
+  .phoenix-hero-right p {
+    color: #e2e8f0 !important;
+    text-shadow: 0 2px 12px rgb(0 0 0 / 0.45);
+  }
+
+  .phoenix-hero-right .hero-block-container a:not(.rounded-md) {
+    color: #f8fafc !important;
+    text-shadow: 0 2px 10px rgb(0 0 0 / 0.45);
+  }
+
+  .phoenix-hero-right .hero-block-container .mt-10 {
+    justify-content: flex-start !important;
+  }
+
+  @media (max-width: 768px) {
+    .phoenix-hero-right .hero-block-container > div {
+      min-height: 34rem;
+      justify-content: center;
+    }
+
+    .phoenix-hero-right .hero-block-container > div > div {
+      margin-inline: 1.5rem !important;
+    }
+  }
+</style>

@@ -20,32 +20,42 @@ sections:
         icon: "arrow-path-rounded-square"
     design:
       background:
-        color: "#9dc3ea"
+        image:
+          filename: bg.png
+          size: contain
+          position: center center
+          repeat: no-repeat
+          parallax: false
+          filters:
+            brightness: 0.82
+            contrast: 1.05
+        color: "#0b1320"
+      css_class: "phoenix-hero-right"
     ce: "section-2e010377"
     As: "section-954c71ed"
 
   - block: "markdown"
     content:
       text: |
-        <div style="max-width: 1040px; margin: 0 auto; padding: 1rem 1.5rem 0.5rem;">
-          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.5rem; align-items: start; justify-items: center;">
-            <div style="width: 100%; max-width: 280px; text-align: center;">
-              <img src="/uploads/robot-arm.png" alt="رباتیک " style="width: 100%; height: 190px; object-fit: cover; border-radius: 18px; box-shadow: 0 16px 40px rgba(36, 52, 87, 0.12);">
-              <h3 style="margin: 0.9rem 0 0; font-size: 1.05rem; font-weight: 700; color: #0f172a;">رباتیک </h3>
+        <div style="width: min(1040px, calc(100vw - 2rem)); max-width: none; margin-right: calc(50% - min(520px, calc(50vw - 1rem))); margin-left: calc(50% - min(520px, calc(50vw - 1rem))); padding: 1rem 0 0.5rem; overflow-x: auto;">
+          <div style="display: grid; grid-template-columns: repeat(3, minmax(210px, 1fr)); gap: 1.5rem; align-items: start; min-width: 690px;">
+            <div style="width: 100%; text-align: center;">
+              <img src="/uploads/robot-arm.png" alt="رباتیک و بازوهای هوشمند" style="width: 100%; height: 190px; object-fit: cover; border-radius: 16px; box-shadow: 0 16px 40px rgba(36, 52, 87, 0.12);">
+              <h3 style="margin: 0.9rem 0 0; font-size: 1.05rem; font-weight: 700; color: #0f172a;">رباتیک</h3>
             </div>
-            <div style="width: 100%; max-width: 280px; text-align: center;">
-              <img src="/uploads/uav.png" alt=" نپهپاد های خودرا" style="width: 100%; height: 190px; object-fit: cover; border-radius: 18px; box-shadow: 0 16px 40px rgba(15, 23, 42, 0.12);">
-              <h3 style="margin: 0.9rem 0 0; font-size: 1.05rem; font-weight: 700; color: #0f172a;">پهپاد های خودران </h3>
+            <div style="width: 100%; text-align: center;">
+              <img src="/uploads/uav.png" alt="پهپادهای خودران" style="width: 100%; height: 190px; object-fit: cover; border-radius: 16px; box-shadow: 0 16px 40px rgba(15, 23, 42, 0.12);">
+              <h3 style="margin: 0.9rem 0 0; font-size: 1.05rem; font-weight: 700; color: #0f172a;">پهپادهای خودران</h3>
             </div>
-            <div style="width: 100%; max-width: 280px; text-align: center;">
-              <img src="/uploads/logo.png" alt="هوش مصنوعی" style="width: 100%; height: 190px; object-fit: contain; background: #ffffff; border-radius: 18px; box-shadow: 0 16px 40px rgba(15, 23, 42, 0.12); padding: 1rem;">
+            <div style="width: 100%; text-align: center;">
+              <img src="/uploads/AI.jpeg" alt="هوش مصنوعی و یادگیری ماشین" style="width: 100%; height: 190px; object-fit: cover; background: #ffffff; border-radius: 16px; box-shadow: 0 16px 40px rgba(15, 23, 42, 0.12);">
               <h3 style="margin: 0.9rem 0 0; font-size: 1.05rem; font-weight: 700; color: #0f172a;">هوش مصنوعی</h3>
             </div>
           </div>
         </div>
     design:
       background:
-        color: "#f8fafc"
+        color: "#f1f1f1"
     ce: "section-showcase"
    
   - block: "markdown"

@@ -1,0 +1,22 @@
+slug: "admin"
+name:
+  display: "Amir Salar"
+  given: "Amir"
+  family: "Salar"
+role: "Computer Vision Researcher"
+bio: "Applied AI researcher designing autonomous robotics and warehouse safety systems."
+interests:
+  - "Artificial Intelligence"
+  - "Robotics"
+  - "Computer Vision"
+affiliations:
+  - name: "Bahcesehir University"
+    url: "https://bau.edu.tr/"
+links:
+  - icon: "envelope"
+    icon_pack: "fas"
+    link: "mailto:you@example.com"
+status:
+  icon: "🤖"
+is_owner: true
+schema: "hugoblox/author/v1"
