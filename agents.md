@@ -11,6 +11,7 @@ Responsibilities:
 - Prepare educational tutorials
 - Generate roadmap descriptions
 - Maintain clear technical documentation
+- For Persian (RTL) posts with English terms, wrap inline English words in `<bdi dir="ltr">...</bdi>` to prevent mixed-direction spacing/order issues in HugoBlox pages.
 
 ### 2. UI/UX Agent
 Responsibilities:
