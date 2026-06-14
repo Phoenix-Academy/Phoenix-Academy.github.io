@@ -1,0 +1,50 @@
+1. Hero / Thumbnail Image
+
+Use this for the top of the blog: “Computer Vision + AI + Robotics” feeling.
+
+Use	URL
+AI + robot hand, good for thumbnail	https://unsplash.com/photos/robot-and-human-hands-reaching-toward-ai-text-FHgWFzDDAOs
+Robot close-up, strong visual hook	https://unsplash.com/photos/a-close-up-of-a-robot-that-is-yellow-NnYbRvZUi9A
+Futuristic robot face	https://unsplash.com/photos/a-futuristic-chrome-robot-with-glowing-yellow-eyes-NtvR8JNQ3Eg
+
+2. “Why Computer Vision Matters?”
+
+For the intro section where you explain drones, autonomous vehicles, robotics, surveillance, etc.
+
+Use	URL
+Autonomous/self-driving visual concept	https://unsplash.com/photos/an-aerial-view-of-a-beach-with-palm-trees-VHMOjviPgcU
+Delivery / autonomous robot	https://unsplash.com/photos/a-white-delivery-robot-with-digital-eyes-and-an-antenna-YXvnmzHW3UI
+Robot torso / industrial AI feeling	https://unsplash.com/photos/a-robotic-torso-with-exposed-internal-components-and-arms-A9egCDR2Wtc
+
+3. “What Is Computer Vision?”
+
+Good for explaining that CV means extracting information from images.
+
+Use	URL
+Wikimedia Computer Vision category	https://commons.wikimedia.org/wiki/Category:Computer_vision
+OpenCV face detection example	https://commons.wikimedia.org/wiki/File:Face_detection_example_openCV.jpg
+Object detection example category	https://commons.wikimedia.org/wiki/File:Ceci_n%27est_pas_une_banane_by_Max_Gruber.jpg
+
+
+4. “Main Tasks in Computer Vision”
+
+For classification, detection, segmentation, tracking.
+
+Use	URL
+Object detection / IoU bounding boxes	https://commons.wikimedia.org/wiki/File:Intersection_over_Union_-_object_detection_bounding_boxes.jpg
+Poor / good / excellent detection score	https://commons.wikimedia.org/wiki/File:Intersection_over_Union_-_poor,_good_and_excellent_score.png
+Object detection problem visual	https://commons.wikimedia.org/wiki/Category:Computer_vision
+
+5. “Neural Networks and CNNs”
+
+For the theoretical section about deep learning and feature extraction.
+
+Use	URL
+CNN architecture diagram	https://commons.wikimedia.org/wiki/File:Convolutional_Neural_Network.png
+CNN category with multiple diagrams	https://commons.wikimedia.org/wiki/Category:Convolutional_neural_networks
+Basic neural network diagram	https://commons.wikimedia.org/wiki/File:Artificial_neural_network.svg
+Deep neural network diagram	https://commons.wikimedia.org/wiki/File:Example_of_a_deep_neural_network.png
+
+Future direction
+Drone vision / AI drone concept
+https://www.ultralytics.com/blog/computer-vision-applications-ai-drone-uav-operations
