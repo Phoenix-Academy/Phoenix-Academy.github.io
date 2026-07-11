@@ -1,0 +1,50 @@
+{{/* Local override: respect image.preview_only for article top covers. */}}
+{{/* Inputs: page context */}}
+{{/* Output: image resource, or nil if not found */}}
+
+{{ $resource := "" }}
+
+{{ $image_params := dict }}
+{{ if and .Params.image (reflect.IsMap .Params.image) }}
+  {{ $image_params = .Params.image }}
+{{ end }}
+
+{{ $skip_implicit_cover := and $image_params.preview_only (not .Params.cover) }}
+
+{{ if not $skip_implicit_cover }}
+  {{/* Search for an image "*cover*" in page folder */}}
+  {{ $resource = (.Resources.ByType "image").GetMatch "*cover*" }}
+  {{ if not (reflect.IsResource $resource) }}
+    {{/* Otherwise fall back to the image file specified in front matter */}}
+    {{ $filename := "" }}
+    {{ if .Params.cover }}
+      {{ if reflect.IsMap .Params.cover }}
+        {{ $filename = .Params.cover.image }}
+      {{ else }}
+        {{/* Support simple string format: cover: "image.jpg" */}}
+        {{ $filename = .Params.cover }}
+      {{ end }}
+    {{ end }}
+    {{ if $filename }}
+      {{/* Check if it's a remote URL */}}
+      {{ if or (strings.HasPrefix $filename "http://") (strings.HasPrefix $filename "https://") }}
+        {{ with resources.GetRemote $filename }}
+          {{ if reflect.IsResource . }}
+            {{ $resource = . }}
+          {{ else }}
+            {{ warnf "Remote cover image not found: %s" $filename }}
+          {{ end }}
+        {{ else }}
+          {{ warnf "Remote cover image not found: %s" $filename }}
+        {{ end }}
+      {{ else }}
+        {{/* Search in page folder */}}
+        {{ $resource = (.Resources.ByType "image").GetMatch $filename }}
+        {{/* Otherwise in `assets/media/` folder */}}
+        {{ if not (reflect.IsResource $resource) }} {{ $resource = resources.GetMatch (path.Join "media" $filename) }} {{ end }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ return $resource }}
