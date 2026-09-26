@@ -1,0 +1,48 @@
+{{- /*
+  Download card for files in /static.
+  Usage:
+  {{< download-card file="/files/startup/x.docx" title="..." desc="..." type="DOCX" size="40 KB" button="دانلود" >}}
+*/ -}}
+{{- $file := .Get "file" -}}
+{{- $title := .Get "title" -}}
+{{- $desc := .Get "desc" -}}
+{{- $type := .Get "type" | default "FILE" -}}
+{{- $size := .Get "size" -}}
+{{- $button := .Get "button" | default "دانلود فایل" -}}
+{{- $name := path.Base $file -}}
+{{- if not (fileExists (path.Join "static" $file)) -}}
+  {{- errorf "download-card: file %q not found in static/ (%s)" $file .Position -}}
+{{- end -}}
+{{- if not (.Page.Store.Get "download-card-css") -}}
+{{- .Page.Store.Set "download-card-css" true -}}
+<style>
+  .dl-card{display:flex;align-items:center;gap:1.25rem;margin:2rem 0;padding:1.25rem 1.5rem;border-radius:1rem;
+    border:1px solid rgba(43,148,195,.35);background:linear-gradient(135deg,rgba(75,180,227,.12),rgba(43,148,195,.04));
+    box-shadow:0 4px 18px rgba(15,23,42,.06);transition:transform .15s ease,box-shadow .15s ease}
+  .dl-card:hover{transform:translateY(-2px);box-shadow:0 10px 26px rgba(15,23,42,.12)}
+  .dl-card__icon{flex:0 0 auto;width:3.5rem;height:3.5rem;border-radius:.85rem;display:grid;place-items:center;
+    background:#2b579a;color:#fff;font:700 .8rem/1 system-ui,sans-serif;letter-spacing:.05em}
+  .dl-card__body{flex:1 1 auto;min-width:0}
+  .dl-card__title{margin:0 0 .25rem!important;font-weight:700;font-size:1.1rem;line-height:1.6}
+  .dl-card__desc{margin:0!important;font-size:.95rem;opacity:.8;line-height:1.8}
+  .dl-card__meta{margin-top:.35rem;font-size:.8rem;opacity:.65}
+  .dl-card__btn{flex:0 0 auto;display:inline-flex;align-items:center;gap:.5rem;padding:.7rem 1.25rem;border-radius:.75rem;
+    background:#2b94c3;color:#fff!important;font-weight:700;text-decoration:none!important;white-space:nowrap;transition:background .15s ease}
+  .dl-card__btn:hover{background:#1f7aa3}
+  .dl-card__btn svg{width:1.15rem;height:1.15rem}
+  .dark .dl-card{border-color:rgba(75,180,227,.35);background:linear-gradient(135deg,rgba(75,180,227,.16),rgba(43,148,195,.05))}
+  @media (max-width:640px){.dl-card{flex-wrap:wrap;padding:1rem}.dl-card__btn{width:100%;justify-content:center}}
+</style>
+{{- end }}
+<div class="dl-card not-prose">
+  <div class="dl-card__icon" aria-hidden="true">{{ $type }}</div>
+  <div class="dl-card__body">
+    <p class="dl-card__title">{{ $title }}</p>
+    {{- with $desc }}<p class="dl-card__desc">{{ . }}</p>{{ end }}
+    <div class="dl-card__meta"><bdi dir="ltr">{{ $type }}{{ with $size }} · {{ . }}{{ end }}</bdi></div>
+  </div>
+  <a class="dl-card__btn" href="{{ $file | relURL }}" download="{{ $name }}">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg>
+    {{ $button }}
+  </a>
+</div>
